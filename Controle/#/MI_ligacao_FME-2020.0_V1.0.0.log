@@ -1,0 +1,112 @@
+2021-02-01 10:15:35|   0.0|  0.0|INFORM|FME 2020.0.0.1 (20200316 - Build 20202 - WIN64)
+2021-02-01 10:15:35|   0.0|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME\'
+2021-02-01 10:15:35|   0.0|  0.0|INFORM|FME Desktop Professional Edition (floating)
+2021-02-01 10:15:35|   0.0|  0.0|INFORM|Permanent License.
+2021-02-01 10:15:35|   0.0|  0.0|INFORM|Machine host name is: VALIDA-26
+2021-02-01 10:15:35|   0.0|  0.0|INFORM|START - ProcessID: 7020, peak process memory usage: 36596 kB, current process memory usage: 36596 kB
+2021-02-01 10:15:35|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME\fme.exe' `C:/Marcos_Batista/www/Controle/#\wb-xlate-161218533537_7508' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{ebdf02d7-bb28-4b79-ac21-323af2ccc22a}'
+2021-02-01 10:15:35|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\joel\AppData\Roaming\Safe Software\FME\'
+2021-02-01 10:15:36|   0.4|  0.4|INFORM|Shared folders for formats are : C:\Program Files\FME\datasources;C:\Users\joel\Documents\FME\Formats
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|Shared folders for transformers are : C:\Users\joel\AppData\Roaming\Safe Software\FME\Packages\20202-win64\transformers;C:\Program Files\FME\transformers
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\joel\Documents\FME\CoordinateSystems
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\joel\Documents\FME\CoordinateSystemExceptions
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\joel\Documents\FME\CoordinateSystemGridOverrides
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\joel\Documents\FME\CsmapTransformationExceptions
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\joel\Documents\FME\TransformerCategories
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME Configuration: Writer Keyword is `NULL_DEST'
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `NULL_DEST_DEF'
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME Configuration: Writer type is `NULL'
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME Configuration: Current working folder is `C:\Marcos_Batista\www\Controle\#'
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Windows\TEMP', set from environment variable `FME_TEMP'
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME\'
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\Marcos_Batista\www\Controle\#/'
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'MI_ligacao_FME-2020.0_V1.0.0.fmw'
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2020.0.0.1'
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|System Status: 571.27 GB of disk space available in the FME temporary folder (C:\Windows\TEMP)
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|System Status: 15.87 GB of physical memory available
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|System Status: 63.47 GB of virtual memory available
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|Operating System: Microsoft Windows 10 64-bit  (Build 17134)
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME Platform: WIN64
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|Locale: pt_BR
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|System Encoding: windows-1252
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 47.60 GB
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 35.70 GB
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|Creating writer for format: NULL (Nothing)
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `NULL'
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|Loaded module 'NULL' from file 'C:\Program Files\FME\plugins/NULL.dll'
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20200115)
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|Creating reader for format: 
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20200115)
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20200115)
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Program Files\FME\plugins/LogCount_func.dll'
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20200115)
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|Loaded module 'InspectorFactory' from file 'C:\Program Files\FME\plugins/InspectorFactory.dll'
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (3.8 20200115)
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|Loaded module 'SpatialRelationshipFactory' from file 'C:\Program Files\FME\plugins/SpatialRelationshipFactory.dll'
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME API version of module 'SpatialRelationshipFactory' matches current internal version (3.8 20200115)
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (3.8 20200115)
+2021-02-01 10:15:36|   0.4|  0.0|INFORM|Emptying factory pipeline
+2021-02-01 10:15:36|   0.4|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2021-02-01 10:15:36|   0.4|  0.0|STATS |Unexpected Input Remover Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2021-02-01 10:15:36|   0.4|  0.0|STATS |public.edicao(POSTGIS_1) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2021-02-01 10:15:36|   0.4|  0.0|STATS |public.edicao_POSTGIS_1 Feature Counter -1 13 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2021-02-01 10:15:36|   0.6|  0.1|STATS |Restoring 1 feature(s) from FME feature store file `C:\Windows\TEMP\wb-cache--UycLBY\Main__All_ -1 2 -1  0  6466172ce4a217c1484fb95261e5d5a9bb503ed7.ffs'
+2021-02-01 10:15:36|   0.6|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Windows\TEMP\wb-cache--UycLBY\Main_AttributeCreator -1 10 fo 0 OUTPUT  0  e2737a7f381cd9a9027679daca15935202c92b16.ffsupdating'
+2021-02-01 10:15:36|   0.6|  0.0|INFORM|Spatial Index: Adding 625 features
+2021-02-01 10:15:36|   0.6|  0.0|INFORM|SpatialRelator (SpatialRelationshipFactory): Splitting bulk mode features into features
+2021-02-01 10:15:36|   0.6|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Windows\TEMP\wb-inspectors-WcJAWK\inspector.ffs'
+2021-02-01 10:15:36|   0.7|  0.0|INFORM|Spatial Index: Adding 625 features
+2021-02-01 10:15:36|   0.7|  0.0|INFORM|SpatialRelator (SpatialRelationshipFactory): Splitting bulk mode features into features
+2021-02-01 10:15:36|   0.7|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Windows\TEMP\fctspatrel1612185336303_7020'
+2021-02-01 10:15:36|   0.7|  0.0|INFORM|public.edicao_POSTGIS_1_-1_13_Player (RecorderFactory): Played back 625 feature(s) from file `C:\Windows\TEMP\wb-cache--UycLBY\Main__All_ -1 2 -1  0  6466172ce4a217c1484fb95261e5d5a9bb503ed7.ffs'
+2021-02-01 10:15:36|   0.7|  0.0|STATS |AttributeCreator OUTPUT Splitter (TeeFactory): Cloned 625 input feature(s) into 1875 output feature(s)
+2021-02-01 10:15:36|   0.7|  0.0|STATS |AttributeCreator_OUTPUT_0_lQ+3mj5tm0E= Feature Counter -1 15 (TeeFactory): Cloned 625 input feature(s) into 625 output feature(s)
+2021-02-01 10:15:36|   0.7|  0.0|STATS |AttributeCreator_OUTPUT_1_Et/p63Aqn4M= Feature Counter -1 16 (TeeFactory): Cloned 625 input feature(s) into 625 output feature(s)
+2021-02-01 10:15:36|   0.7|  0.0|STATS |AttributeCreator_OUTPUT_2_LCEXEZ3I7po= Feature Counter -1 14 (TeeFactory): Cloned 625 input feature(s) into 625 output feature(s)
+2021-02-01 10:15:36|   0.7|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Windows\TEMP\wb-cache--UycLBY\Main_SpatialRelator -1 7 fo 0 Output  0  af6217f27b0abdf672640b500fe1f91434b21fa1.ffsupdating'
+2021-02-01 10:15:37|   1.6|  0.8|STATS |Stored 625 feature(s) to FME feature store file `C:\Windows\TEMP\fctspatrel1612185336303_7020'
+2021-02-01 10:15:37|   1.6|  0.0|STATS |SpatialRelator (SpatialRelationshipFactory): Total results: processed 625 BASE(s) and 625 CANDIDATE(s).  5157 BASE/CANDIDATE pair(s) had at least one true predicate, with a total of 5157 true predicate(s) found
+2021-02-01 10:15:37|   1.6|  0.0|STATS |SpatialRelator (SpatialRelationshipFactory): Total comparisons made: 5157
+2021-02-01 10:15:37|   1.6|  0.0|STATS |SpatialRelator_Output Feature Counter -1 17 (TeeFactory): Cloned 625 input feature(s) into 625 output feature(s)
+2021-02-01 10:15:37|   1.6|  0.0|STATS |SpatialRelator_<Rejected> Feature Counter -1 2147680263 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2021-02-01 10:15:37|   1.6|  0.0|STATS |Stored 626 feature(s) to FME feature store file `C:\Windows\TEMP\wb-inspectors-WcJAWK\inspector.ffs'
+2021-02-01 10:15:37|   1.6|  0.0|INFORM|Saving spatial index into file 'C:\Windows\TEMP\wb-inspectors-WcJAWK\inspector.fsi'
+2021-02-01 10:15:37|   1.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Windows\TEMP\wb-inspectors-WcJAWK\inspector.fsi'
+2021-02-01 10:15:37|   1.6|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\Windows\TEMP\wb-cache--UycLBY\Main_AttributeCreator -1 10 fo 0 OUTPUT  0  e2737a7f381cd9a9027679daca15935202c92b16.ffsupdating'
+2021-02-01 10:15:37|   1.6|  0.0|INFORM|Saving spatial index into file 'C:\Windows\TEMP\wb-cache--UycLBY\Main_AttributeCreator -1 10 fo 0 OUTPUT  0  e2737a7f381cd9a9027679daca15935202c92b16.fsi'
+2021-02-01 10:15:37|   1.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Windows\TEMP\wb-cache--UycLBY\Main_AttributeCreator -1 10 fo 0 OUTPUT  0  e2737a7f381cd9a9027679daca15935202c92b16.fsi'
+2021-02-01 10:15:37|   1.6|  0.0|STATS |Stored 625 feature(s) to FME feature store file `C:\Windows\TEMP\wb-cache--UycLBY\Main_SpatialRelator -1 7 fo 0 Output  0  af6217f27b0abdf672640b500fe1f91434b21fa1.ffsupdating'
+2021-02-01 10:15:37|   1.6|  0.0|INFORM|Saving spatial index into file 'C:\Windows\TEMP\wb-cache--UycLBY\Main_SpatialRelator -1 7 fo 0 Output  0  af6217f27b0abdf672640b500fe1f91434b21fa1.fsi'
+2021-02-01 10:15:37|   1.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Windows\TEMP\wb-cache--UycLBY\Main_SpatialRelator -1 7 fo 0 Output  0  af6217f27b0abdf672640b500fe1f91434b21fa1.fsi'
+2021-02-01 10:15:37|   1.6|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2021-02-01 10:15:37|   1.6|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2021-02-01 10:15:37|   1.6|  0.0|STATS |VisualizerProcessor (CreationFactory): Created 1 features
+2021-02-01 10:15:37|   1.6|  0.0|STATS |VisualizerCleaner (TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2021-02-01 10:15:37|   1.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2021-02-01 10:15:37|   1.6|  0.0|STATS |                            Features Read Summary
+2021-02-01 10:15:37|   1.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2021-02-01 10:15:37|   1.6|  0.0|STATS |==============================================================================
+2021-02-01 10:15:37|   1.6|  0.0|STATS |Total Features Read                                                          0
+2021-02-01 10:15:37|   1.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2021-02-01 10:15:37|   1.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2021-02-01 10:15:37|   1.6|  0.0|STATS |                           Features Written Summary
+2021-02-01 10:15:37|   1.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2021-02-01 10:15:37|   1.6|  0.0|STATS |==============================================================================
+2021-02-01 10:15:37|   1.6|  0.0|STATS |Total Features Written                                                       0
+2021-02-01 10:15:37|   1.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2021-02-01 10:15:37|   1.6|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2021-02-01 10:15:37|   1.6|  0.0|WARN  |-~                                                                             ~-
+2021-02-01 10:15:37|   1.6|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2021-02-01 10:15:37|   1.6|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2021-02-01 10:15:37|   1.6|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2021-02-01 10:15:37|   1.6|  0.0|WARN  |-~                                                                             ~-
+2021-02-01 10:15:37|   1.6|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2021-02-01 10:15:37|   1.6|  0.0|INFORM|Translation was SUCCESSFUL with 7 warning(s) (0 feature(s) output)
+2021-02-01 10:15:37|   1.6|  0.0|INFORM|FME Session Duration: 1.8 seconds. (CPU: 1.1s user, 0.2s system)
+2021-02-01 10:15:37|   1.6|  0.0|INFORM|END - ProcessID: 7020, peak process memory usage: 96844 kB, current process memory usage: 93888 kB
