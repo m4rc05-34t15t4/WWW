@@ -1,0 +1,53 @@
+:root {
+    --color_1 : #06F;
+    --color_2: #CCC;
+}
+
+body {
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: var(--color_1) var(--color_2);   /* scroll thumb and track */
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color_1) var(--color_2);
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: var(--color_2);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--color_1);
+    border-radius: 20px;
+    border: 3px solid var(--color_2);
+}
+
+.graficos {
+    max-width: 350pt;
+    min-width: 350pt;
+    width: 100%;
+    min-height: 250pt;
+}
+
+.div-estatistica h3 {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.link-cabecalho {
+    color: azure;
+    padding: 5pt 10pt 5pt 10pt;
+    text-decoration: none;
+}
+.link-cabecalho:hover {
+    color: azure;
+    background-color: black;
+    border-radius: 5pt;
+}
