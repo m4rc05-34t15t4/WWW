@@ -1,0 +1,511 @@
+:root {
+    --largura-scroll: 16pt;
+    --largura-pagina: 100vw;
+    --padding: 30pt;
+    --altura-do-corpo: calc(100vh - var(--altura-cabecalho) - var(--altura-rodape));
+    --bg-color-padrao: cornsilk;
+    --altura_td: 12pt;
+    --font-contracheque: 12pt;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 150, 252, 0.1);
+}
+
+b {
+    font-weight: 600;
+}
+
+u {
+    text-decoration: underline;
+}
+
+i {
+    font-style: italic;
+}
+
+#titulo {
+    padding-right: 20pt;
+    font-size: 26pt;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+
+#conteudo, #cabecalho, #dados_cabecalho, #dados_radio, #mes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+}
+
+#cabecalho {
+    justify-content: space-around;
+    padding: 0t 20pt 0 20pt;
+}
+
+#dados_cabecalho {
+    justify-content: space-between;
+}
+
+#mes {
+    justify-content: center;
+}
+
+#dados_radio div {
+    padding-right: 20pt;
+}
+
+#cabecalho {
+    padding: 20pt;
+    align-items: flex-start;
+}
+
+#foto {
+    margin-left: 20pt;
+    width: 220pt;
+    height: 300pt;
+    background: url('../img/usuario.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: solid 2px black;
+}
+
+#nome, #titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10pt 20pt 10pt 20pt;
+}
+
+#nome select {
+    height: 30pt;
+    font-size: 16pt;
+    padding-right: 10pt;
+    padding-left: 10pt;
+    min-width: 300pt;
+    text-align: center;
+}
+
+#ficha_auxiliar {
+    margin: 20pt;
+    margin-top: 0;
+    width: 90%;
+    min-width: 550pt;
+    background-color: white;
+}
+
+#ficha_auxiliar td {
+    vertical-align: middle;
+    text-align: center; 
+    border: solid 1px black;
+    padding: 0;
+    text-align: center;
+    height: var(--altura_td);
+}
+
+#ficha_auxiliar input{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 120%;
+    border: none;
+    text-align: center;
+}
+
+#ficha_auxiliar .cabecalho:nth-child(-n+3) td { /* CABEÇALHO */
+    padding: 15pt;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+}
+
+#ficha_auxiliar .dados_tipo { /* RECEITA / DESPESA */
+    width: 30pt;
+    padding: 0;
+    margin: 0;
+}
+
+#receita, #despesa {
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+#ficha_auxiliar #tr_despesa .dados_contra_cheque {
+    border-top: 1px solid black;
+}
+
+#ficha_auxiliar #tr_receita .dados_contra_cheque #receita tr:last-child td {
+    border-bottom: 0px solid black;;
+}
+
+#ficha_auxiliar {
+    border: 2px solid black;
+}
+
+#ficha_auxiliar .dados_contra_cheque {
+    padding: 0;
+    margin: 0;
+    height: auto;
+    border: none;
+}
+
+#receita td:first-child, #despesa td:first-child { /* DISCRIMININAÇÃO */
+    height: var(--altura_td);
+    width: 50pt;
+    border-left: none;
+    font-size: var(--font-contracheque);
+}
+
+#ficha_auxiliar #receita td:nth-child(2), #ficha_auxiliar #despesa td:nth-child(2) { /* % */
+    height: var(--altura_td);
+    min-width: 10pt;
+    max-width: 10pt;
+    font-size: var(--font-contracheque);
+}
+
+#ficha_auxiliar #receita td:nth-child(3), #ficha_auxiliar #despesa td:nth-child(3), #ficha_auxiliar #receita td:nth-child(4), #ficha_auxiliar #despesa td:nth-child(4) { /* VALRO PESQUISADO */
+    height: var(--altura_td);
+    min-width: 50pt;
+    max-width: 50pt;
+    font-size: var(--font-contracheque);
+}
+
+#ficha_auxiliar .dados_tipo {
+    border-bottom: 2px solid black ;
+}
+
+#ficha_auxiliar .cabecalho:nth-child(3) td {
+    border-bottom: 2px solid black;
+}
+
+#receita td {
+    border-top: none;
+    border-right: none;
+}
+
+#despesa td {
+    border-right: none;
+    border-bottom: none;
+}
+
+#receita td:nth-child(2), #despesa td:nth-child(2) {
+    width: 5%;
+}
+
+#receita td:nth-child(n+3), #despesa td:nth-child(n+3) {
+    width: 22%;
+}
+
+#add_aba input {
+    width: 90pt;
+    font-size: var(--font-contracheque);
+}
+
+#nr_filhos, #nr_dep_irpf, #nr_dep_fam, #nr_filhos_menor_6, #perc_pnr_gestoria, #perc_pnr_manut, #perc_pnr_const, #add_aba #add_aba_porcento {
+    width: 30pt;
+}
+
+#val_diario_transporte, #val_adc_pqdt, #val_adc_grat_loc_esp_tip_a, #val_adc_grat_rep_2, #val_adc_perm, #val_pj, #imp_rend_tributaveis, #imp_deducoes, #imp_base_calculo {
+    width: 60pt;
+}
+
+#ficha_auxiliar .inp_mes {
+    width: 80pt;
+    margin-left: 10pt;
+}
+
+#dados_auxiliares input {
+    margin-bottom: 5pt;
+}
+
+#dados_auxiliares p {
+    font-size: 16pt;
+    font-weight: 600;
+}
+
+#dados_usuario {
+    padding-top: 10pt;
+    padding-left: 20pt;
+    text-align: center;
+}
+
+#dados_usuario b {
+    font-weight: 600;
+}
+
+#remove_aba {
+    margin-bottom: 20pt;
+}
+
+#dados_informacoes_div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: 120pt;
+}
+
+#dados_informacoes_div div {
+    padding-right: 10pt;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#dados_informacoes_div div input {
+    margin-right: 5pt;
+}
+
+#imposto_de_renda {
+    margin: 10pt 0 10pt 0;
+}
+
+#imposto_de_renda td{
+    font-size: 14pt;
+    border: solid 1px black;
+    padding: 5pt;
+    margin: 5pt;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#imposto_de_renda tr:nth-child(1) td, #imposto_de_renda tr:nth-child(2) td {
+    font-size: 16pt;
+    font-weight: 600;
+}
+
+#imposto_de_renda #rendimentos {
+    text-align: left;
+    padding: 2pt 10pt 0 10pt;
+    font-size: 12pt;
+}
+#imposto_de_renda #rendimentos input {
+    margin: 2pt 0 10pt 0;
+    font-size: 12pt;
+}
+
+.rodape {
+    font-size: 16pt;
+}
+
+#ficha_auxiliar #rodape_data {
+    text-align: right; 
+    border: none; 
+    border-top: solid 2px black; 
+    padding: 5pt;
+}
+
+#ficha_auxiliar #rodape_responsavel {
+    border: none; 
+    height: 70pt;
+}
+
+#ficha_auxiliar #rodape_responsavel input {
+    border: none; 
+    border-top: solid 2px black;
+    width: 60%;
+    padding: 0pt;
+    margin: 0;
+    height: 30pt;
+    font-size: 14pt;
+}
+
+#rodape_data input {
+    width: 40%;
+    border: solid 1px black;
+    color: black;
+    font-size: 14pt;
+    margin: 10pt 0 30pt 0;
+}
+
+#dados_auxiliares #resp_exame select  {
+    font-size: 10pt;
+    text-align: center;
+    margin-top: 5pt;
+}
+
+#div_botao_clonar, #div_botao_observacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+[data-tooltip] {
+    position: relative;
+    font-weight: bold;
+}
+  
+[data-tooltip]:after {
+    display: none;
+    position: absolute;
+    top: -5px;
+    padding: 5px;
+    border-radius: 3px;
+    left: calc(100% + 2px);
+    content: attr(data-tooltip);
+    white-space: nowrap;
+    background-color: #0095ff;
+    color: White;
+}
+  
+[data-tooltip]:hover:after {
+    display: block;
+}
+
+#clonar_val_pesquisado, #limpar_dados_observacoes {
+    padding: 5pt;
+    border: solid 1px black;
+}
+
+#clonar_val_pesquisado:hover, #limpar_dados_observacoes:hover  {
+    cursor: pointer;
+}
+#limpar_dados_observacoes:hover {
+    background-color: lightcoral;
+}
+#limpar_dados_observacoes:active {
+    background-color: #0095ff;
+}
+
+.ativado {
+    background-color: lawngreen;
+}
+
+#tabela_contracheque {
+    min-width: 50%;
+}
+
+#add_aba input {
+    font-size: 8pt;
+}
+
+#btnSalvar {
+    font-size: 20pt;
+    margin: 10pt 0pt 10pt 20pt;
+    background-color: white;
+    border: solid 1pt black;
+    padding: 5pt 15pt 5pt 15pt;
+}
+
+#btnSalvar:hover {
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+#historico-fichas {
+    height: 200pt;
+    margin: 20pt;
+    width: 90%;
+    text-align: center;
+}
+
+#historico-fichas-conteudo {
+    overflow: auto;
+    width: 100%;
+    height: 80%;
+    font-size: 14pt;
+}
+
+#historico-fichas-conteudo ul li {
+    margin: 0pt 0pt 10pt 0;
+}
+
+#historico-fichas-conteudo ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#historico-fichas-conteudo ul li a:hover {
+    color: blue;
+}
+
+#historico-fichas h2 {
+    font-size: 20pt;
+    margin-bottom: 10pt;
+}
+
+#formulario-login, #formulario-upload form {
+    border: solid 1pt black;
+    padding: 20pt;
+    font-size: 14pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5pt;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color:rgba(0, 0, 0, 0.2);
+    max-width: 250pt;
+}
+
+#formulario-login input, #formulario-login span,  #formulario-upload form input {
+    margin-top: 10pt;
+}
+
+#formulario-login input, #formulario-upload form input {
+    height: 30pt;
+    padding: 5pt;
+    font-size: 14pt;
+}
+
+#formulario-login h1, #formulario-upload form h1, #upload-mensagem p {
+    font-size: 25pt;
+    font-weight: 600;
+}
+
+#formulario-upload {
+    display: none;
+}
+
+#conteudo-admin {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo-admin {
+    font-size: 40pt;
+    font-weight: 600;
+    margin: 20pt;
+}
+
+#upload-mensagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#upload-mensagem a {
+    margin-top: 20pt;
+    font-size: 14pt;
+    padding: 5pt;
+    background-color: dimgrey;
+    border-radius: 5pt;
+    border: 1pt solid black;
+    text-decoration: none;
+    color: white;
+} 
+
+#upload-mensagem a:hover {
+    background-color: black;
+    border-radius: 5pt;
+    border: 1pt solid dimgrey;
+}
+

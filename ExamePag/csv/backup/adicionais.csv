@@ -1,0 +1,28 @@
+post_grad,circulo_hierarquico,soldo,adc_militar,adc_disp
+Gen Ex,Oficiais Generais,13471,28,41
+Gen Div,Oficiais Generais,12912,28,38
+Gen Bri,Oficiais Generais,12490,28,35
+Cel,Oficiais Superiores,11451,25,32
+Ten Cel,Oficiais Superiores,11250,25,26
+Maj,Oficiais Superiores,11088,25,20
+Cap,Oficiais Intermediários,9135,22,12
+Cap | QAO,Oficiais Intermediários,9135,22,32
+1º Ten,Oficiais Subalternos,8245,19,6
+1º Ten | QAO,Oficiais Subalternos,8245,19,32
+1º Ten | Temp,Oficiais Subalternos,8245,19,6
+2º Ten,Oficiais Subalternos,7490,19,5
+2º Ten | QAO,Oficiais Subalternos,7490,19,32
+2º Ten | Temp,Oficiais Subalternos,7490,19,5
+Asp Of,Praças Especiais,7315,19,5
+Asp Of | Temp,Praças Especiais,7315,19,5
+S Ten,Praças Graduadas,6169,16,32
+1º Sgt,Praças Graduadas,5483,16,20
+2º Sgt | QE,Praças Graduadas,4770,16,26
+2º Sgt,Praças Graduadas,4770,16,12
+3º Sgt | QE,Praças Graduadas,3825,16,16
+3º Sgt,Praças Graduadas,3825,16,6
+3º Sgt | Temp,Praças Graduadas,3825,16,6
+Cb,Praças Graduadas,2627,16,6
+Cb Ev,Praças Graduadas,1078,16,6
+Sd Ep,Demais Praças,1765,13,5
+Sd Ev,Demais Praças,1078,13,5
