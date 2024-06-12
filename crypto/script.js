@@ -1,13 +1,20 @@
 document.addEventListener('DOMContentLoaded', function() {
     const cryptoContainer = document.getElementById('crypto-container');
 
+    // Função para recarregar a página a cada 30 segundos (30000 milissegundos)
+    function autoReload() {
+        setTimeout(function(){
+            location.reload();
+        }, 60000); // 30 segundos
+    }
+
     // Função para obter parâmetros da URL
     function getUrlParams() {
         const params = new URLSearchParams(window.location.search);
         const cryptos = params.get('cryptos') ? params.get('cryptos').split(',') : [];
         const purchasePrices = params.get('prices') ? params.get('prices').split(',').map(Number) : [];
         const montantes = params.get('montantes') ? params.get('montantes').split(',').map(Number) : [];
-        const currency = params.get('currency').length > 2 ? String(params.get('currency')) : 'usd';
+        const currency = params.get('currency') && params.get('currency').length > 2 ? String(params.get('currency')) : 'usd';
         return { cryptos, purchasePrices, montantes, currency };
     }
 
@@ -27,8 +34,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const fetchCryptoData = async () => {
         const { cryptos, purchasePrices, montantes, currency } = getUrlParams();
 
-        if (cryptos.length === 0 || purchasePrices.length === 0 || montantes.length === 0 || cryptos.length !== purchasePrices.length || cryptos.length !== montantes.length) {
-            cryptoContainer.innerHTML = '<p>Por favor, forneça parâmetros válidos na URL.</p>';
+        if (cryptos.length === 0 || purchasePrices.length === 0 || montantes.length === 0 || cryptos.length !== purchasePrices.length || cryptos.length !== montantes.length || !currency) {
+            cryptoContainer.innerHTML = '<p>Por favor, forneça parâmetros válidos na URL.<br>(cryptos, currency, prices, montantes)</p>';
             return;
         }
 
@@ -71,9 +78,11 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         } catch (error) {
             console.error('Erro ao buscar dados da API do CoinGecko', error);
-            cryptoContainer.innerHTML = '<p>Erro ao carregar dados</p>';
+            cryptoContainer.innerHTML = '<p>Erro ao carregar dados, muitas requesições, espere e tente novamente</p>';
         }
     };
 
     fetchCryptoData();
+
+    window.onload = autoReload;
 });
