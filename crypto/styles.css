@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0; /* Fundo neutro e claro */
+    color: #333; /* Texto em cor neutra */
+}
+
+.container {
+    text-align: center;
+    background: none;
+    padding: 20px;
+    padding-top: 0;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.crypto-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.crypto {
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    text-align: center;
+    transition: background 0.5s;
+    cursor: pointer; /* Adiciona um cursor de ponteiro */
+    position: relative;
+    border: solid 1px #888;
+}
+
+.crypto h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.crypto h5 {
+    margin: 10px 0 0 0;
+    font-size: 1.2em;
+}
+
+.crypto p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #222; /* Texto em cor menos viva */
+}
+
+.crypto img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    border: solid 1px #999;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
