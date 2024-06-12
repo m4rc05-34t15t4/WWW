@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <h5>${currentPrice} ${currency.toUpperCase()}</h5>
                     <p>Preço Médio: ${purchasePrice} ${currency.toUpperCase()}</p>
                     <p>Montante: ${montante}</p>
-                    <p>Lucro: ${profitPercentage}%</p>
+                    <p>Lucro: <b style="font-size: 14px">${profitPercentage}%</b></p>
                 `;
                 cryptoElement.addEventListener('click', () => {
                     window.open(`https://www.coingecko.com/en/coins/${crypto}#panel`, '_blank');
