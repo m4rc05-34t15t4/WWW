@@ -12,7 +12,7 @@ body {
     display: block;
     text-align: center;
     background: none;
-    padding: 20px;
+    padding: 20px 10px 20px 10px;
     border-radius: 10px;
     box-shadow: none;
 }
@@ -63,3 +63,8 @@ body {
     border: solid 1px #999;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
+
+.dragging {
+    background-color: #f0f0f0;
+    opacity: 0.5;
+  }
