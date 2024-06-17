@@ -74,10 +74,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     <h3>${crypto.charAt(0).toUpperCase() + crypto.slice(1)}</h3>
                     <img src="${icons[crypto]}" alt="${crypto} icon">
                     <h5>${currentPrice}</h5>
-                    ${purchasePrice > 0 || montante > 0 || profitPercentage > 0 ? '<hr>' : ''}
+                    ${purchasePrice > 0 || montante > 0 || !isNaN(profitPercentage) ? '<hr>' : ''}
                     ${purchasePrice > 0 ? '<p>Preço Médio: '+purchasePrice+'</p>' : ''}
                     ${montante > 0 ? '<p>Montante: '+montante+'</p>' : ''}
-                    ${profitPercentage > 0 ? '<p>Lucro: <b style="font-size: 14px">'+profitPercentage+'%</b></p>' : ''}
+                    ${!isNaN(profitPercentage) ? '<p>Lucro: <b style="font-size: 14px">'+profitPercentage+'%</b></p>' : ''}
                 `;
 
                 cryptoElement.addEventListener('click', () => {
