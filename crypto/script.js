@@ -32,7 +32,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Função para definir o fundo com base na variação percentual
     function getBackgroundColor(profitPercentage) {
         let color;
-        if (profitPercentage > 0) color = 'linear-gradient(135deg, #33ff33, #336633)';
+        if (isNaN(profitPercentage)) color = 'linear-gradient(135deg, #46a6fa, #1644e0)';
+        else if (profitPercentage > 0) color = 'linear-gradient(135deg, #33ff33, #336633)';
         else color = 'linear-gradient(135deg, #ff9966, #cc1133)';
         return color;
     }
