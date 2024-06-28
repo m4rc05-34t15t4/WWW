@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Função para definir o fundo com base na variação percentual
     function getBackgroundColor(profitPercentage) {
         let color;
-        if (isNaN(profitPercentage)) color = 'linear-gradient(135deg, #46a6fa, #1644e0)';
+        if (isNaN(profitPercentage) || !isFinite(profitPercentage)) color = 'linear-gradient(135deg, #46a6fa, #1644e0)';
         else if (profitPercentage > 0) color = 'linear-gradient(135deg, #33ff33, #336633)';
         else color = 'linear-gradient(135deg, #ff9966, #cc1133)';
         return color;
@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <span title="Variação de preço em 24h">Preço 24h: ${data[crypto]['price_change_percentage_24h']}%</span>
                         ${purchasePrice > 0 ? '<p>Preço Médio: '+purchasePrice+'</p>' : ''}
                         ${montante > 0 ? '<p>Montante: '+montante+'</p>' : ''}
-                        ${!isNaN(profitPercentage) ? '<p>Lucro: <b style="font-size: 14px">'+profitPercentage+'%</b></p>' : ''}
+                        ${!isNaN(profitPercentage) && isFinite(profitPercentage) ? '<p>Lucro: <b style="font-size: 14px">'+profitPercentage+'%</b></p>' : ''}
                         ${liquidprice ? `<p title="Preço Estimado para liquidação">Liquidação: ${liquidprice}</p>` : ''}
                     </a>
                     ${corretora && corretora['image'] ? `<a href="${corretora['url']}" target="_blank"><img src="${corretora['image']}" alt="${corretora['name']}" class="img-corretora"></a>` : ''}
