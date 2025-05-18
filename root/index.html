@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projetos</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      background-color: #f5f6fa;
+      padding: 40px 20px;
+      color: #2f3640;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.2s, box-shadow 0.2s;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    }
+
+    .card svg {
+      width: 80px;
+      height: 80px;
+      fill: #4cd137;
+      margin-bottom: 15px;
+    }
+
+    .card span {
+      display: block;
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📁 Marcos Batista - Projetos</h1>
+
+  <div class="grid" id="folderGrid">
+    <!-- Cards serão inseridos via JS -->
+  </div>
+
+  <script>
+    const pastas = [
+      { nome: "Carteira Crypto", link: "crypto/" },
+      { nome: "Compras Nota", link: "compras_nota/" },
+      { nome: "TradeGun", link: "tradegun/" },
+      { nome: "Dental System", link: "dentalsystem/" },
+      { nome: "Canil", link: "canil/" }
+      
+    ];
+
+    const svgIcon = `
+      <svg viewBox="0 0 24 24">
+        <path d="M10 4H4C2.9 4 2 4.9 2 6V18C2 
+                 19.1 2.9 20 4 20H20C21.1 20 22 
+                 19.1 22 18V8C22 6.9 21.1 6 20 
+                 6H12L10 4Z" />
+      </svg>`;
+
+    const grid = document.getElementById("folderGrid");
+
+    pastas.forEach(pasta => {
+      const card = document.createElement("a");
+      card.className = "card";
+      card.href = pasta.link;
+      card.target = "_blank";
+      card.innerHTML = `${svgIcon}<span>${pasta.nome}</span>`;
+      grid.appendChild(card);
+    });
+  </script>
+
+</body>
+</html>
